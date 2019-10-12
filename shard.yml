@@ -1,8 +1,15 @@
 name: mruby
-version: 0.1.0
+version: 0.0.1
+description: |
+  mruby library bindings for Crystal. Currently only unsafe, generated bindings.
 
 authors:
   - Max Fierke <max@maxfierke.com>
+
+development_dependencies:
+  crystal_lib:
+    git: https://github.com/maxfierke/crystal_lib.git
+    branch: mf-warn_on_type_import_fails
 
 crystal: 0.31.0
 
