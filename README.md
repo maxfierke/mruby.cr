@@ -12,7 +12,7 @@ Very much a work-in-progress.
    ```yaml
    dependencies:
      mruby:
-       github: maxfierke/mruby
+       github: maxfierke/mruby.cr
    ```
 
 2. Run `shards install`
@@ -41,7 +41,7 @@ See `src/mruby.cr` once generated to view exposed methods (currently only those 
 
 ## Contributing
 
-1. Fork it (<https://github.com/maxfierke/mruby/fork>)
+1. Fork it (<https://github.com/maxfierke/mruby.cr/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
