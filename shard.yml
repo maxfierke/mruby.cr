@@ -11,6 +11,6 @@ development_dependencies:
     git: https://github.com/maxfierke/crystal_lib.git
     branch: mf-warn_on_type_import_fails
 
-crystal: 0.31.0
+crystal: 0.35.1
 
 license: MIT

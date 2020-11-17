@@ -8,5 +8,9 @@
 # Dependencies will be locked in applications that use them
 /shard.lock
 
+# Built assets
+/build/
+mruby-out.tar
+
 # Ignore generated bindings for now
-src/mruby.cr
+src/lib_mruby.cr

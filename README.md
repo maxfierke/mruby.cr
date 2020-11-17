@@ -5,8 +5,9 @@ Very much a work-in-progress.
 
 ## Installation
 
-0. Install mruby library and headers
-  * On macOS, `brew install llvm@8 mruby` will install the required dependencies.
+0. Install `llvm` and any dependencies required for mruby on your platform
+  * On macOS, `brew install llvm` will install the required dependencies
+    (Xcode LLVM may work fine on more recent macOS versions.)
 1. Add the dependency to your `shard.yml`:
 
    ```yaml
@@ -30,7 +31,7 @@ LibMRuby.mrb_load_string(mrb, code)
 LibMRuby.mrb_close(mrb)
 ```
 
-See `src/mruby.cr` once generated to view exposed methods (currently only those from `mruby.h` and `mruby/compile.h`)
+See `src/lib_mruby.cr` once generated to view exposed methods (currently only those from `mruby.h` and `mruby/compile.h`)
 
 ## Development
 
